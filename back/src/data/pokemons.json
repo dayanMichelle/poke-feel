@@ -1,0 +1,1302 @@
+[
+  {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon/1/",
+    "feeling": "alegre",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/1.gif"
+    },
+    "type": "grass",
+    "color": "#4CAF50",
+    "id": "1"
+  },
+  {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon/2/",
+    "feeling": "determinado",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/2.gif"
+    },
+    "type": "grass",
+    "color": "#4CAF50",
+    "id": "2"
+  },
+  {
+    "name": "venusaur",
+    "url": "https://pokeapi.co/api/v2/pokemon/3/",
+    "feeling": "majestuoso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/3.gif"
+    },
+    "type": "grass",
+    "color": "#4CAF50",
+    "id": "3"
+  },
+  {
+    "name": "charmander",
+    "url": "https://pokeapi.co/api/v2/pokemon/4/",
+    "feeling": "enérgico",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/4.gif"
+    },
+    "type": "fire",
+    "color": "#FF5722",
+    "id": "4"
+  },
+  {
+    "name": "charmeleon",
+    "url": "https://pokeapi.co/api/v2/pokemon/5/",
+    "feeling": "audaz",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/5.gif"
+    },
+    "type": "fire",
+    "color": "#FF5722",
+    "id": "5"
+  },
+  {
+    "name": "charizard",
+    "url": "https://pokeapi.co/api/v2/pokemon/6/",
+    "feeling": "poderoso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/6.gif"
+    },
+    "type": "fire",
+    "color": "#FF5722",
+    "id": "6"
+  },
+  {
+    "name": "squirtle",
+    "url": "https://pokeapi.co/api/v2/pokemon/7/",
+    "feeling": "juguetón",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/7.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "7"
+  },
+  {
+    "name": "wartortle",
+    "url": "https://pokeapi.co/api/v2/pokemon/8/",
+    "feeling": "leal",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/8.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "8"
+  },
+  {
+    "name": "blastoise",
+    "url": "https://pokeapi.co/api/v2/pokemon/9/",
+    "feeling": "imparable",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/9.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "9"
+  },
+  {
+    "name": "caterpie",
+    "url": "https://pokeapi.co/api/v2/pokemon/10/",
+    "feeling": "curioso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10.gif"
+    },
+    "type": "bug",
+    "color": "#8BC34A",
+    "id": "10"
+  },
+  {
+    "name": "metapod",
+    "url": "https://pokeapi.co/api/v2/pokemon/11/",
+    "feeling": "evolucionando",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/11.gif"
+    },
+    "type": "bug",
+    "color": "#8BC34A",
+    "id": "11"
+  },
+  {
+    "name": "butterfree",
+    "url": "https://pokeapi.co/api/v2/pokemon/12/",
+    "feeling": "libre",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/12.gif"
+    },
+    "type": "bug",
+    "color": "#8BC34A",
+    "id": "12"
+  },
+  {
+    "name": "weedle",
+    "url": "https://pokeapi.co/api/v2/pokemon/13/",
+    "feeling": "inquieto",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/13.gif"
+    },
+    "type": "bug",
+    "color": "#8BC34A",
+    "id": "13"
+  },
+  {
+    "name": "kakuna",
+    "url": "https://pokeapi.co/api/v2/pokemon/14/",
+    "feeling": "endesarrollo",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/14.gif"
+    },
+    "type": "bug",
+    "color": "#8BC34A",
+    "id": "14"
+  },
+  {
+    "name": "beedrill",
+    "url": "https://pokeapi.co/api/v2/pokemon/15/",
+    "feeling": "determinado",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/15.gif"
+    },
+    "type": "bug",
+    "color": "#8BC34A",
+    "id": "15"
+  },
+  {
+    "name": "pidgey",
+    "url": "https://pokeapi.co/api/v2/pokemon/16/",
+    "feeling": "curioso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/16.gif"
+    },
+    "type": "normal",
+    "color": "#FFC107",
+    "id": "16"
+  },
+  {
+    "name": "pidgeotto",
+    "url": "https://pokeapi.co/api/v2/pokemon/17/",
+    "feeling": "majestuoso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/17.gif"
+    },
+    "type": "normal",
+    "color": "#FFC107",
+    "id": "17"
+  },
+  {
+    "name": "pidgeot",
+    "url": "https://pokeapi.co/api/v2/pokemon/18/",
+    "feeling": "poderoso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/18.gif"
+    },
+    "type": "normal",
+    "color": "#FFC107",
+    "id": "18"
+  },
+  {
+    "name": "rattata",
+    "url": "https://pokeapi.co/api/v2/pokemon/19/",
+    "feeling": "astuto",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/19.gif"
+    },
+    "type": "normal",
+    "color": "#FFC107",
+    "id": "19"
+  },
+  {
+    "name": "raticate",
+    "url": "https://pokeapi.co/api/v2/pokemon/20/",
+    "feeling": "experto",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/20.gif"
+    },
+    "type": "normal",
+    "color": "#FFC107",
+    "id": "20"
+  },
+  {
+    "name": "spearow",
+    "url": "https://pokeapi.co/api/v2/pokemon/21/",
+    "feeling": "agresivo",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/21.gif"
+    },
+    "type": "normal",
+    "color": "#FFC107",
+    "id": "21"
+  },
+  {
+    "name": "fearow",
+    "url": "https://pokeapi.co/api/v2/pokemon/22/",
+    "feeling": "dominante",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/22.gif"
+    },
+    "type": "normal",
+    "color": "#FFC107",
+    "id": "22"
+  },
+  {
+    "name": "ekans",
+    "url": "https://pokeapi.co/api/v2/pokemon/23/",
+    "feeling": "sigiloso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/23.gif"
+    },
+    "type": "poison",
+    "color": "#9C27B0",
+    "id": "23"
+  },
+  {
+    "name": "arbok",
+    "url": "https://pokeapi.co/api/v2/pokemon/24/",
+    "feeling": "feroz",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/24.gif"
+    },
+    "type": "poison",
+    "color": "#9C27B0",
+    "id": "24"
+  },
+  {
+    "name": "pikachu",
+    "url": "https://pokeapi.co/api/v2/pokemon/25/",
+    "feeling": "carismático",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/25.gif"
+    },
+    "type": "electric",
+    "color": "#FFEB3B",
+    "id": "25"
+  },
+  {
+    "name": "raichu",
+    "url": "https://pokeapi.co/api/v2/pokemon/26/",
+    "feeling": "energético",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/26.gif"
+    },
+    "type": "electric",
+    "color": "#FFEB3B",
+    "id": "26"
+  },
+  {
+    "name": "sandshrew",
+    "url": "https://pokeapi.co/api/v2/pokemon/27/",
+    "feeling": "defensivo",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/27.gif"
+    },
+    "type": "ground",
+    "color": "#795548",
+    "id": "27"
+  },
+  {
+    "name": "sandslash",
+    "url": "https://pokeapi.co/api/v2/pokemon/28/",
+    "feeling": "firme",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/28.gif"
+    },
+    "type": "ground",
+    "color": "#795548",
+    "id": "28"
+  },
+  {
+    "name": "nidoran-f",
+    "url": "https://pokeapi.co/api/v2/pokemon/29/",
+    "feeling": "delicado",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/29.gif"
+    },
+    "type": "poison",
+    "color": "#9C27B0",
+    "id": "29"
+  },
+  {
+    "name": "nidorina",
+    "url": "https://pokeapi.co/api/v2/pokemon/30/",
+    "feeling": "elegante",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/30.gif"
+    },
+    "type": "poison",
+    "color": "#9C27B0",
+    "id": "30"
+  },
+  {
+    "name": "nidoqueen",
+    "url": "https://pokeapi.co/api/v2/pokemon/31/",
+    "feeling": "imponente",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/31.gif"
+    },
+    "type": "poison",
+    "color": "#9C27B0",
+    "id": "31"
+  },
+  {
+    "name": "nidoran-m",
+    "url": "https://pokeapi.co/api/v2/pokemon/32/",
+    "feeling": "reservado",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/32.gif"
+    },
+    "type": "poison",
+    "color": "#9C27B0",
+    "id": "32"
+  },
+  {
+    "name": "nidorino",
+    "url": "https://pokeapi.co/api/v2/pokemon/33/",
+    "feeling": "valiente",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/33.gif"
+    },
+    "type": "poison",
+    "color": "#9C27B0",
+    "id": "33"
+  },
+  {
+    "name": "nidoking",
+    "url": "https://pokeapi.co/api/v2/pokemon/34/",
+    "feeling": "majestuoso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/34.gif"
+    },
+    "type": "poison",
+    "color": "#9C27B0",
+    "id": "34"
+  },
+  {
+    "name": "clefairy",
+    "url": "https://pokeapi.co/api/v2/pokemon/35/",
+    "feeling": "encantador",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/35.gif"
+    },
+    "type": "fairy",
+    "color": "#E91E63",
+    "id": "35"
+  },
+  {
+    "name": "clefable",
+    "url": "https://pokeapi.co/api/v2/pokemon/36/",
+    "feeling": "misterioso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/36.gif"
+    },
+    "type": "fairy",
+    "color": "#E91E63",
+    "id": "36"
+  },
+  {
+    "name": "vulpix",
+    "url": "https://pokeapi.co/api/v2/pokemon/37/",
+    "feeling": "juguetón",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/37.gif"
+    },
+    "type": "fire",
+    "color": "#FF5722",
+    "id": "37"
+  },
+  {
+    "name": "ninetales",
+    "url": "https://pokeapi.co/api/v2/pokemon/38/",
+    "feeling": "elegante",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/38.gif"
+    },
+    "type": "fire",
+    "color": "#FF5722",
+    "id": "38"
+  },
+  {
+    "name": "jigglypuff",
+    "url": "https://pokeapi.co/api/v2/pokemon/39/",
+    "feeling": "adorable",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/39.gif"
+    },
+    "type": "normal",
+    "color": "#FFC107",
+    "id": "39"
+  },
+  {
+    "name": "wigglytuff",
+    "url": "https://pokeapi.co/api/v2/pokemon/40/",
+    "feeling": "afable",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/40.gif"
+    },
+    "type": "normal",
+    "color": "#FFC107",
+    "id": "40"
+  },
+  {
+    "name": "zubat",
+    "url": "https://pokeapi.co/api/v2/pokemon/41/",
+    "feeling": "sigiloso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/41.gif"
+    },
+    "type": "poison",
+    "color": "#9C27B0",
+    "id": "41"
+  },
+  {
+    "name": "golbat",
+    "url": "https://pokeapi.co/api/v2/pokemon/42/",
+    "feeling": "imponente",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/42.gif"
+    },
+    "type": "poison",
+    "color": "#9C27B0",
+    "id": "42"
+  },
+  {
+    "name": "oddish",
+    "url": "https://pokeapi.co/api/v2/pokemon/43/",
+    "feeling": "alegre",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/43.gif"
+    },
+    "type": "grass",
+    "color": "#4CAF50",
+    "id": "43"
+  },
+  {
+    "name": "gloom",
+    "url": "https://pokeapi.co/api/v2/pokemon/44/",
+    "feeling": "melancólico",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/44.gif"
+    },
+    "type": "grass",
+    "color": "#4CAF50",
+    "id": "44"
+  },
+  {
+    "name": "vileplume",
+    "url": "https://pokeapi.co/api/v2/pokemon/45/",
+    "feeling": "fascinante",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/45.gif"
+    },
+    "type": "grass",
+    "color": "#4CAF50",
+    "id": "45"
+  },
+  {
+    "name": "paras",
+    "url": "https://pokeapi.co/api/v2/pokemon/46/",
+    "feeling": "trabajador",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/46.gif"
+    },
+    "type": "bug",
+    "color": "#8BC34A",
+    "id": "46"
+  },
+  {
+    "name": "parasect",
+    "url": "https://pokeapi.co/api/v2/pokemon/47/",
+    "feeling": "dedicado",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/47.gif"
+    },
+    "type": "bug",
+    "color": "#8BC34A",
+    "id": "47"
+  },
+  {
+    "name": "venonat",
+    "url": "https://pokeapi.co/api/v2/pokemon/48/",
+    "feeling": "cauteloso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/48.gif"
+    },
+    "type": "bug",
+    "color": "#8BC34A",
+    "id": "48"
+  },
+  {
+    "name": "venomoth",
+    "url": "https://pokeapi.co/api/v2/pokemon/49/",
+    "feeling": "misterioso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/49.gif"
+    },
+    "type": "bug",
+    "color": "#8BC34A",
+    "id": "49"
+  },
+  {
+    "name": "diglett",
+    "url": "https://pokeapi.co/api/v2/pokemon/50/",
+    "feeling": "juguetón",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/50.gif"
+    },
+    "type": "ground",
+    "color": "#795548",
+    "id": "50"
+  },
+  {
+    "name": "dugtrio",
+    "url": "https://pokeapi.co/api/v2/pokemon/51/",
+    "feeling": "unido",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/51.gif"
+    },
+    "type": "ground",
+    "color": "#795548",
+    "id": "51"
+  },
+  {
+    "name": "meowth",
+    "url": "https://pokeapi.co/api/v2/pokemon/52/",
+    "feeling": "astuto",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/52.gif"
+    },
+    "type": "normal",
+    "color": "#FFC107",
+    "id": "52"
+  },
+  {
+    "name": "persian",
+    "url": "https://pokeapi.co/api/v2/pokemon/53/",
+    "feeling": "elegante",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/53.gif"
+    },
+    "type": "normal",
+    "color": "#FFC107",
+    "id": "53"
+  },
+  {
+    "name": "psyduck",
+    "url": "https://pokeapi.co/api/v2/pokemon/54/",
+    "feeling": "confundido",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/54.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "54"
+  },
+  {
+    "name": "golduck",
+    "url": "https://pokeapi.co/api/v2/pokemon/55/",
+    "feeling": "sereno",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/55.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "55"
+  },
+  {
+    "name": "mankey",
+    "url": "https://pokeapi.co/api/v2/pokemon/56/",
+    "feeling": "temperamental",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/56.gif"
+    },
+    "type": "fighting",
+    "color": "#FF9800",
+    "id": "56"
+  },
+  {
+    "name": "primeape",
+    "url": "https://pokeapi.co/api/v2/pokemon/57/",
+    "feeling": "furioso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/57.gif"
+    },
+    "type": "fighting",
+    "color": "#FF9800",
+    "id": "57"
+  },
+  {
+    "name": "growlithe",
+    "url": "https://pokeapi.co/api/v2/pokemon/58/",
+    "feeling": "leal",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/58.gif"
+    },
+    "type": "fire",
+    "color": "#FF5722",
+    "id": "58"
+  },
+  {
+    "name": "arcanine",
+    "url": "https://pokeapi.co/api/v2/pokemon/59/",
+    "feeling": "majestuoso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/59.gif"
+    },
+    "type": "fire",
+    "color": "#FF5722",
+    "id": "59"
+  },
+  {
+    "name": "poliwag",
+    "url": "https://pokeapi.co/api/v2/pokemon/60/",
+    "feeling": "juguetón",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/60.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "60"
+  },
+  {
+    "name": "poliwhirl",
+    "url": "https://pokeapi.co/api/v2/pokemon/61/",
+    "feeling": "inquieto",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/61.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "61"
+  },
+  {
+    "name": "poliwrath",
+    "url": "https://pokeapi.co/api/v2/pokemon/62/",
+    "feeling": "determined",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/62.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "62"
+  },
+  {
+    "name": "abra",
+    "url": "https://pokeapi.co/api/v2/pokemon/63/",
+    "feeling": "curioso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/63.gif"
+    },
+    "type": "psychic",
+    "color": "#673AB7",
+    "id": "63"
+  },
+  {
+    "name": "kadabra",
+    "url": "https://pokeapi.co/api/v2/pokemon/64/",
+    "feeling": "intelectual",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/64.gif"
+    },
+    "type": "psychic",
+    "color": "#673AB7",
+    "id": "64"
+  },
+  {
+    "name": "alakazam",
+    "url": "https://pokeapi.co/api/v2/pokemon/65/",
+    "feeling": "poderoso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/65.gif"
+    },
+    "type": "psychic",
+    "color": "#673AB7",
+    "id": "65"
+  },
+  {
+    "name": "machop",
+    "url": "https://pokeapi.co/api/v2/pokemon/66/",
+    "feeling": "fuerte",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/66.gif"
+    },
+    "type": "fighting",
+    "color": "#FF9800",
+    "id": "66"
+  },
+  {
+    "name": "machoke",
+    "url": "https://pokeapi.co/api/v2/pokemon/67/",
+    "feeling": "imparable",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/67.gif"
+    },
+    "type": "fighting",
+    "color": "#FF9800",
+    "id": "67"
+  },
+  {
+    "name": "machamp",
+    "url": "https://pokeapi.co/api/v2/pokemon/68/",
+    "feeling": "determinado",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/68.gif"
+    },
+    "type": "fighting",
+    "color": "#FF9800",
+    "id": "68"
+  },
+  {
+    "name": "bellsprout",
+    "url": "https://pokeapi.co/api/v2/pokemon/69/",
+    "feeling": "hambriento",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/69.gif"
+    },
+    "type": "grass",
+    "color": "#4CAF50",
+    "id": "69"
+  },
+  {
+    "name": "weepinbell",
+    "url": "https://pokeapi.co/api/v2/pokemon/70/",
+    "feeling": "voraz",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/70.gif"
+    },
+    "type": "grass",
+    "color": "#4CAF50",
+    "id": "70"
+  },
+  {
+    "name": "victreebel",
+    "url": "https://pokeapi.co/api/v2/pokemon/71/",
+    "feeling": "devorador",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/71.gif"
+    },
+    "type": "grass",
+    "color": "#4CAF50",
+    "id": "71"
+  },
+  {
+    "name": "tentacool",
+    "url": "https://pokeapi.co/api/v2/pokemon/72/",
+    "feeling": "misterioso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/72.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "72"
+  },
+  {
+    "name": "tentacruel",
+    "url": "https://pokeapi.co/api/v2/pokemon/73/",
+    "feeling": "fascinante",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/73.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "73"
+  },
+  {
+    "name": "geodude",
+    "url": "https://pokeapi.co/api/v2/pokemon/74/",
+    "feeling": "robusto",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/74.gif"
+    },
+    "type": "rock",
+    "color": "#607D8B",
+    "id": "74"
+  },
+  {
+    "name": "graveler",
+    "url": "https://pokeapi.co/api/v2/pokemon/75/",
+    "feeling": "fuerte",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/75.gif"
+    },
+    "type": "rock",
+    "color": "#607D8B",
+    "id": "75"
+  },
+  {
+    "name": "golem",
+    "url": "https://pokeapi.co/api/v2/pokemon/76/",
+    "feeling": "imponente",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/76.gif"
+    },
+    "type": "rock",
+    "color": "#607D8B",
+    "id": "76"
+  },
+  {
+    "name": "ponyta",
+    "url": "https://pokeapi.co/api/v2/pokemon/77/",
+    "feeling": "fogoso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/77.gif"
+    },
+    "type": "fire",
+    "color": "#FF5722",
+    "id": "77"
+  },
+  {
+    "name": "rapidash",
+    "url": "https://pokeapi.co/api/v2/pokemon/78/",
+    "feeling": "majestuoso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/78.gif"
+    },
+    "type": "fire",
+    "color": "#FF5722",
+    "id": "78"
+  },
+  {
+    "name": "slowpoke",
+    "url": "https://pokeapi.co/api/v2/pokemon/79/",
+    "feeling": "tranquilo",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/79.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "79"
+  },
+  {
+    "name": "slowbro",
+    "url": "https://pokeapi.co/api/v2/pokemon/80/",
+    "feeling": "relajado",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/80.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "80"
+  },
+  {
+    "name": "magnemite",
+    "url": "https://pokeapi.co/api/v2/pokemon/81/",
+    "feeling": "electrizante",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/81.gif"
+    },
+    "type": "electric",
+    "color": "#FFEB3B",
+    "id": "81"
+  },
+  {
+    "name": "magneton",
+    "url": "https://pokeapi.co/api/v2/pokemon/82/",
+    "feeling": "poderoso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/82.gif"
+    },
+    "type": "electric",
+    "color": "#FFEB3B",
+    "id": "82"
+  },
+  {
+    "name": "farfetchd",
+    "url": "https://pokeapi.co/api/v2/pokemon/83/",
+    "feeling": "honorario",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/83.gif"
+    },
+    "type": "normal",
+    "color": "#FFC107",
+    "id": "83"
+  },
+  {
+    "name": "doduo",
+    "url": "https://pokeapi.co/api/v2/pokemon/84/",
+    "feeling": "dúodinámico",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/84.gif"
+    },
+    "type": "normal",
+    "color": "#FFC107",
+    "id": "84"
+  },
+  {
+    "name": "dodrio",
+    "url": "https://pokeapi.co/api/v2/pokemon/85/",
+    "feeling": "ágil",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/85.gif"
+    },
+    "type": "normal",
+    "color": "#FFC107",
+    "id": "85"
+  },
+  {
+    "name": "seel",
+    "url": "https://pokeapi.co/api/v2/pokemon/86/",
+    "feeling": "inocente",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/86.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "86"
+  },
+  {
+    "name": "dewgong",
+    "url": "https://pokeapi.co/api/v2/pokemon/87/",
+    "feeling": "gentil",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/87.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "87"
+  },
+  {
+    "name": "grimer",
+    "url": "https://pokeapi.co/api/v2/pokemon/88/",
+    "feeling": "viscoso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/88.gif"
+    },
+    "type": "poison",
+    "color": "#9C27B0",
+    "id": "88"
+  },
+  {
+    "name": "muk",
+    "url": "https://pokeapi.co/api/v2/pokemon/89/",
+    "feeling": "toxico",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/89.gif"
+    },
+    "type": "poison",
+    "color": "#9C27B0",
+    "id": "89"
+  },
+  {
+    "name": "shellder",
+    "url": "https://pokeapi.co/api/v2/pokemon/90/",
+    "feeling": "conchaprotectora",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/90.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "90"
+  },
+  {
+    "name": "cloyster",
+    "url": "https://pokeapi.co/api/v2/pokemon/91/",
+    "feeling": "defensivo",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/91.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "91"
+  },
+  {
+    "name": "gastly",
+    "url": "https://pokeapi.co/api/v2/pokemon/92/",
+    "feeling": "espeluznante",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/92.gif"
+    },
+    "type": "ghost",
+    "color": "#607D8B",
+    "id": "92"
+  },
+  {
+    "name": "haunter",
+    "url": "https://pokeapi.co/api/v2/pokemon/93/",
+    "feeling": "juguetón",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/93.gif"
+    },
+    "type": "ghost",
+    "color": "#607D8B",
+    "id": "93"
+  },
+  {
+    "name": "gengar",
+    "url": "https://pokeapi.co/api/v2/pokemon/94/",
+    "feeling": "travieso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/94.gif"
+    },
+    "type": "ghost",
+    "color": "#607D8B",
+    "id": "94"
+  },
+  {
+    "name": "onix",
+    "url": "https://pokeapi.co/api/v2/pokemon/95/",
+    "feeling": "colosal",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/95.gif"
+    },
+    "type": "rock",
+    "color": "#607D8B",
+    "id": "95"
+  },
+  {
+    "name": "drowzee",
+    "url": "https://pokeapi.co/api/v2/pokemon/96/",
+    "feeling": "soñoliento",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/96.gif"
+    },
+    "type": "psychic",
+    "color": "#673AB7",
+    "id": "96"
+  },
+  {
+    "name": "hypno",
+    "url": "https://pokeapi.co/api/v2/pokemon/97/",
+    "feeling": "hipnotizador",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/97.gif"
+    },
+    "type": "psychic",
+    "color": "#673AB7",
+    "id": "97"
+  },
+  {
+    "name": "krabby",
+    "url": "https://pokeapi.co/api/v2/pokemon/98/",
+    "feeling": "agresivo",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/98.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "98"
+  },
+  {
+    "name": "kingler",
+    "url": "https://pokeapi.co/api/v2/pokemon/99/",
+    "feeling": "dominante",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/99.gif"
+    },
+    "type": "water",
+    "color": "#2196F3",
+    "id": "99"
+  },
+  {
+    "name": "voltorb",
+    "url": "https://pokeapi.co/api/v2/pokemon/100/",
+    "feeling": "explosivo",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/100.gif"
+    },
+    "type": "electric",
+    "color": "#FFEB3B",
+    "id": "100"
+  }
+]

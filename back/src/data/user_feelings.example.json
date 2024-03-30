@@ -1,0 +1,50 @@
+[
+  {
+    "pokemon": {
+      "name": "clefairy",
+      "url": "https://pokeapi.co/api/v2/pokemon/35/",
+      "sentimiento": "encantador",
+      "sprites": {
+        "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+        "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/35.gif"
+      },
+      "type": "fairy",
+      "color": "#E91E63"
+    },
+    "date": "2024-03-14T18:02:19.018Z",
+    "resumen": "me sentí alegre"
+  },
+  {
+    "pokemon": {
+      "name": "clefairy",
+      "url": "https://pokeapi.co/api/v2/pokemon/35/",
+      "sentimiento": "encantador",
+      "sprites": {
+        "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+        "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/35.gif"
+      },
+      "type": "fairy",
+      "color": "#E91E63"
+    },
+    "date": "2024-03-15T00:06:53.066Z",
+    "resumen": "me sentí alegre"
+  },
+  {
+    "pokemon": {
+      "name": "gloom",
+      "url": "https://pokeapi.co/api/v2/pokemon/44/",
+      "sentimiento": "melancólico",
+      "sprites": {
+        "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+        "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/44.gif"
+      },
+      "type": "grass",
+      "color": "#4CAF50"
+    },
+    "date": "2024-03-15T00:09:40.567Z",
+    "resumen": "me sentí alegre"
+  }
+]

@@ -1,0 +1,201 @@
+openapi: 3.0.0
+info:
+  title: Feeling API Pokemon
+  version: 1.0.0
+  description: API for managing feelings and pokemons
+
+servers:
+  - url: "http://localhost:3010"
+
+paths:
+  /feeling:
+    post:
+      summary: Create a new feeling
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                answers:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      title:
+                        type: string
+                        description: Title of the question
+                        example: ¿Te sientes satisfecho con tus interacciones sociales hoy?
+                      description:
+                        type: string
+                        description: Description of the question
+                        example: Evalúa tus experiencias sociales del día.
+                      id:
+                        type: string
+                        format: uuid
+                        description: ID of the question
+                        example: d0028d3d-ec75-41d7-b2d6-485dd4f2a187
+                      answer:
+                        type: string
+                        description: User's answer to the question
+                        example: Sí me siento satisfecho
+                  description: Array of question and answer objects
+                model:
+                  type: string
+                  enum: [cohereChat, chatGPT]
+                  description: Name of the model
+      responses:
+        "200":
+          description: Successfully created feeling
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UserFeeling"
+    get:
+      summary: Get all feelings
+      responses:
+        "200":
+          description: Successfully retrieved feelings
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/UserFeeling"
+    delete:
+      summary: Delete all feelings
+      responses:
+        "200":
+          description: Successfully deleted all feelings
+  /feeling/{id}:
+    delete:
+      summary: Delete a feeling by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: ID of the feeling to delete
+      responses:
+        "200":
+          description: Successfully deleted the feeling
+  /pokemon:
+    get:
+      summary: Get all pokemons
+      responses:
+        "200":
+          description: Successfully retrieved pokemons
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Pokemon"
+  /question:
+    get:
+      summary: Get all questions
+      parameters:
+        - name: random
+          in: query
+          description: Whether to return questions in random order
+          required: false
+          schema:
+            type: boolean
+        - name: limit
+          in: query
+          description: Maximum number of questions to return
+          required: false
+          schema:
+            type: number
+      responses:
+        "200":
+          description: Successfully retrieved questions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Question"
+
+components:
+  schemas:
+    UserFeeling:
+      type: object
+      properties:
+        pokemon:
+          $ref: "#/components/schemas/Pokemon"
+        date:
+          type: string
+          format: date-time
+          description: Date and time when the feeling was created
+          example: 2024-03-18T19:03:50.904Z
+        id:
+          type: string
+          format: uuid
+          description: ID of the feeling
+          example: 3fa85f64-5717-4562-b3fc-2c963f66afa6
+        resumen:
+          type: string
+          description: Summary of the feeling
+          example: Me siento alegre y satisfecho con mis interacciones sociales.
+    Pokemon:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Name of the Pokemon
+          example: "bulbasaur"
+        url:
+          type: string
+          format: uri
+          description: URL to the Pokemon details
+          example: "https://pokeapi.co/api/v2/pokemon/1/"
+        feeling:
+          type: string
+          description: Feeling associated with the Pokemon
+          example: "alegre"
+        sprites:
+          type: object
+          properties:
+            front_artwork:
+              type: string
+              format: uri
+              description: URL to the front artwork sprite of the Pokemon
+              example: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png
+            front_default:
+              type: string
+              format: uri
+              description: URL to the default front sprite of the Pokemon
+              example: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
+            front_showdown:
+              type: string
+              format: uri
+              description: URL to the front sprite used in Showdown of the Pokemon
+              example: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/1.gif
+        type:
+          type: string
+          description: Type of the Pokemon
+          example: grass
+        color:
+          type: string
+          description: Color associated with the Pokemon
+          example: #4CAF50
+    Question:
+      type: object
+      properties:
+        title:
+          type: string
+          description: Title of question
+          example: "¿Te sientes satisfecho con tus interacciones sociales hoy?"
+        description:
+          type: string
+          description: Description of question
+          example: "Evalúa tus experiencias sociales del día."
+        id:
+          type: string
+          format: uuid
+          description: ID of the feeling
+          example: "d0028d3d-ec75-41d7-b2d6-485dd4f2a187"

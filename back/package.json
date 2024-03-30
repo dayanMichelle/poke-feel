@@ -1,0 +1,48 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "lint": "ts-standard",
+    "start": "node build/index.js",
+    "tsc": "tsc",
+    "dev": "nodemon -I --exec node --trace-warnings --experimental-specifier-resolution=node  --loader ts-node/esm ./src/index.ts",
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "string-similarity": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.27",
+    "@types/string-similarity": "^4.0.2",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "ts-standard": "^12.0.2",
+    "typescript": "^5.4.2"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "prettier",
+      "./node_modules/ts-standard/eslintrc.json"
+    ]
+  }
+}

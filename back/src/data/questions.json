@@ -1,0 +1,102 @@
+[
+  {
+    "title": "¿Cómo te sientes en este momento?",
+    "description": "Describe tu estado de ánimo hoy.",
+    "id": "3d8e262f-0e4d-4a5b-87bb-3e8e409fb5a1"
+  },
+  {
+    "title": "¿Hubo algo que te hizo sonreír hoy?",
+    "description": "Comparte una experiencia que te haya alegrado.",
+    "id": "d5e731a1-2f25-4f20-9684-66a2450c7d82"
+  },
+  {
+    "title": "¿Cuál fue el momento más emocionante del día para ti?",
+    "description": "Habla sobre un momento que te emocionó hoy.",
+    "id": "e7c907da-09cf-4939-b3f7-1db4c24d417e"
+  },
+  {
+    "title": "¿Te sentiste estresado en algún momento? ¿Por qué?",
+    "description": "Identifica situaciones que causaron estrés hoy.",
+    "id": "a6c7895c-1484-4e21-8a66-9e38c579b584"
+  },
+  {
+    "title": "¿Cuáles fueron los aspectos positivos de tu día?",
+    "description": "Enumera cosas buenas que sucedieron hoy.",
+    "id": "d485c89e-96fc-4cbb-a550-4d63b014e08e"
+  },
+  {
+    "title": "¿Cómo te sientes respecto a tus logros de hoy?",
+    "description": "Reflexiona sobre tus éxitos del día.",
+    "id": "55d28c7e-0a2e-4b36-9c37-31b67b9030df"
+  },
+  {
+    "title": "¿Algo te frustró o te hizo enojar hoy?",
+    "description": "Comparte situaciones que te hayan molestado.",
+    "id": "07a4d0f7-8cfd-4db2-9f11-33b7f65e79d5"
+  },
+  {
+    "title": "¿Te sientes satisfecho con tus interacciones sociales hoy?",
+    "description": "Evalúa tus experiencias sociales del día.",
+    "id": "d0028d3d-ec75-41d7-b2d6-485dd4f2a187"
+  },
+  {
+    "title": "¿Cómo influyó el clima en tu estado de ánimo?",
+    "description": "Reflexiona sobre la relación entre clima y ánimo hoy.",
+    "id": "b5eb5e7e-2cf5-4b95-83a9-5ed8e5e29bf7"
+  },
+  {
+    "title": "¿Hay algo que desearías haber hecho diferente?",
+    "description": "Identifica aspectos que cambiarías de hoy.",
+    "id": "fcf321b2-7d2c-4a36-a8bb-f150d8a97b26"
+  },
+  {
+    "title": "¿Qué actividad te relajó más hoy?",
+    "description": "Habla sobre algo que te haya proporcionado tranquilidad.",
+    "id": "92116d3f-8c2e-4cda-b5a6-d265057f273a"
+  },
+  {
+    "title": "¿Cuáles son tus pensamientos antes de dormir?",
+    "description": "Reflexiona sobre tus pensamientos nocturnos.",
+    "id": "b69ff8b8-44ac-4c73-b5a4-fa61cb78e8d4"
+  },
+  {
+    "title": "¿Tuviste momentos de introspección hoy?",
+    "description": "Habla sobre tus reflexiones personales del día.",
+    "id": "57d227eb-5be3-4b5d-9d6e-1d7c24c5c8e6"
+  },
+  {
+    "title": "¿Te sentiste inspirado o motivado hoy?",
+    "description": "Comparte lo que te haya motivado.",
+    "id": "f4508eaa-6d54-4d36-af8e-0ccf2489bb0e"
+  },
+  {
+    "title": "¿Cómo influyeron tus hábitos en tu día?",
+    "description": "Reflexiona sobre la influencia de tus hábitos diarios.",
+    "id": "c1ee0fe3-9f8a-42e8-b83b-e0e30ea594ae"
+  },
+  {
+    "title": "¿Hubo momentos en los que te sentiste abrumado?",
+    "description": "Identifica situaciones que te hayan abrumado hoy.",
+    "id": "f98b82ab-4852-4a5b-bae4-2a46cb1b1d23"
+  },
+  {
+    "title": "¿Qué te gustaría mejorar en tu día?",
+    "description": "Identifica áreas de mejora para el futuro.",
+    "id": "4d45e3eb-4764-4e84-89c0-3fb9b68ce898"
+  },
+  {
+    "title": "¿Cuáles fueron tus pensamientos predominantes hoy?",
+    "description": "Reflexiona sobre los pensamientos dominantes del día.",
+    "id": "b7aa83ae-0a18-484c-92a3-8ef75b5b6d85"
+  },
+  {
+    "title": "¿Qué planes tienes para mejorar tu ánimo mañana?",
+    "description": "Habla sobre tus planes para un día mejor.",
+    "id": "c37c409d-732d-4f10-94f3-b9b4e16762f3"
+  },
+  {
+    "title": "¿Cómo te autoevalúas en cuanto a felicidad hoy?",
+    "description": "Califica tu nivel de felicidad en el día.",
+    "id": "b8c558a3-399a-415e-b5ec-c9bce9b24d35"
+  }
+]
