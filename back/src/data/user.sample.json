@@ -1,6 +1,24 @@
 {
-  "id": "bfef72a3-2fc7-47a0-a7cd-10272e665c86",
-  "name": "jhan",
-  "pokemon": "psyduck",
-  "birthDate": "2000-01-29"
+  "id": "4731d543-7807-494b-a0e8-4af8ddd4ddb4",
+  "name": "Day",
+  "pokemon": {
+    "name": "charizard",
+    "url": "https://pokeapi.co/api/v2/pokemon/6/",
+    "feeling": "poderoso",
+    "sprites": {
+      "front_artwork": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+      "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "front_showdown": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/6.gif"
+    },
+    "type": "fire",
+    "color": "#FF5722",
+    "id": "6"
+  },
+  "trainer": {
+    "name": "misty",
+    "sprites": {
+      "front_artwork": "https://static.wikia.nocookie.net/espokemon/images/a/ac/Misty_%28anime_SL%29.png"
+    },
+    "id": "2"
+  }
 }
