@@ -1,7 +1,7 @@
 
 # Poke Feel
 
-Es una aplicación web en la cual puedes tener un registro de tu sentimiento del día en base a unas preguntas y relaciona tu sentimiento con un pokemon (a esto le llamamos PokeFeel) usando inteligencia artificial del lado del servidor.
+Es una aplicación web en la cual puedes tener un registro de tu sentimiento del día en base a unas preguntas y relaciona tu sentimiento con un pokemon **(PokeFeel)** usando inteligencia artificial del lado del servidor.
 
 
 
