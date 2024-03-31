@@ -48,6 +48,7 @@ const FEELS: UserFeeling[] = [
 ];
 
 export const Feeling = () => {
+  // TODO: 2 convierte la logica del fetch del pokemon random en un custom hook
   const [pokemonRandom, setPokemonRandom] = useState<Pokemon>();
 
   useEffect(() => {
@@ -71,7 +72,7 @@ export const Feeling = () => {
 
   // TODO: 1. traer el listado de PokeFeel del backend (GET /pokemon) y mapearlo
 
-  // TODO: 2. si no hay pokemon random mostrar uno por defecto que está en src/data/pokemon.ts
+  // TODO: 3. si no hay pokemon random mostrar uno por defecto que está en src/data/pokemon.ts. (añadir la logica en el custom hook)
   const pokemonBackground = pokemonRandom?.sprites?.front_artwork;
   const pokemonIcon = pokemonRandom?.sprites?.front_showdown;
 
