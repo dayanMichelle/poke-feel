@@ -89,6 +89,8 @@ Para hacer que Tailwind compile las clases es necesario ejecutar en otra termina
     
 ## API Reference
 
+[Collection JSON](https://github.com/dayanMichelle/poke-feel/blob/main/assets/collection.json)
+
 ### Question
 
 #### Get all questions
