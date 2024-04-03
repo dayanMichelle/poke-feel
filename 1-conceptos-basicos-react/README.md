@@ -1,5 +1,5 @@
 ## TODOS
 
 - [x] TODO completado
-- [ ] incrementar o decrementar en 2 el contador `Counter.tsx`
-- [ ] cambiar el valor inicial del contador `Counter.tsx` en 20
+- [ ] 1. incrementar o decrementar según la prop step el contador `Counter.tsx`
+- [ ] 2. cambiar el valor inicial del contador `Counter.tsx` en 20
