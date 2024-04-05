@@ -1,28 +1,35 @@
 import { useEffect, useState } from "react";
 import { PokemonCard, InfoCard } from "@/components/cards";
-import { PokemonService } from "@/services";
+import { usePokemonRandom } from "@/hooks/usePokemonRandom";
 import { DEFAULT_POKEMON } from "@/data";
-import { Pokemon, UserFeeling } from "@/types";
+import type { UserFeeling } from "@/types";
 
 export const Feeling = () => {
-  const [pokemonRandom, setPokemonRandom] = useState<Pokemon>();
-  const [pokeFeels, setPokeFeels] = useState<UserFeeling[]>([]);
+  // TODO: 2 convierte la logica del fetch del pokemon random en un custom hook
+  const { pokemonRandom } = usePokemonRandom();
+  // TODO: 1. traer el listado de PokeFeel del backend (GET /feeling) y mapearlo
+  const [userFeeling, setUserFeeling] = useState<UserFeeling[]>([]);
 
   useEffect(() => {
-    const fetchRandomPokemon = async () => {
+    const fetchUserFeeling = async () => {
       try {
-        const data = await PokemonService.getRandom();
-        setPokemonRandom(data);
+        const response = await fetch(
+          import.meta.env.VITE_BASE_URL + "/feeling"
+        );
+        if (!response.ok) {
+          throw new Error("Error fetching feeling");
+        }
+        const data = await response.json();
+        setUserFeeling(data);
       } catch (error) {
         console.error(error);
       }
     };
 
-    fetchRandomPokemon();
+    fetchUserFeeling();
   }, []);
 
-  // TODO: 2. usar service para traer los PokeFeels src/services/feeling.ts
-
+  // TODO: 3. si no hay pokemon random mostrar uno por defecto que está en src/data/pokemon.ts
   const pokemonBackground =
     pokemonRandom?.sprites?.front_artwork ||
     DEFAULT_POKEMON.sprites.front_artwork;
@@ -33,15 +40,15 @@ export const Feeling = () => {
   return (
     <div className="gap-3 gap-y-6 content-center justify-items-center grid grid-cols-12 justify-center p-4 w-full max-w-[1200px] mx-auto">
       <InfoCard
-        // TODO: 3. en lugar de mostrar el alert, redirigir a la página de /create-poke-feel con react router dom link:https://reactrouter.com/en/main/hooks/use-navigate
         onOpen={() => alert("open")}
-        backgroundImage={pokemonBackground}
-        iconImage={pokemonIcon}
+        backgroundImage={pokemonBackground || ""}
+        iconImage={pokemonIcon || ""}
         subTitle="tu historial de PokeFeels"
         title="Aquí tienes los pokemons que se adaptan a tu sentimiento"
         buttonLabel="Crea tu PokeFeel"
       />
-      {pokeFeels?.map((feelingItem) => (
+
+      {userFeeling?.map((feelingItem) => (
         <PokemonCard feeling={feelingItem} key={feelingItem.id} />
       ))}
     </div>

@@ -46,7 +46,7 @@ export const FormQuestions = ({ isOpen, onClose }: FormQuestionsProps) => {
       model: import.meta.env.VITE_MODEL,
     });
 
-    // TODO: 3. en lugar de mostrar el alert, redirigir a la página de /poke-feel con react router dom link:https://reactrouter.com/en/main/hooks/use-navigate
+    // TODO: 4. en lugar del alert, llevar a la ruta de creación de /poke-feel con react router dom
     alert(
       `pokemon es ${userFeel.pokemon.name} y su sentimiento es ${userFeel.pokemon.feeling}`
     );
