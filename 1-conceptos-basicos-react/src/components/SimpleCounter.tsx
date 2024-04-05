@@ -3,16 +3,9 @@ import { useState } from "react";
 export const SimpleCounter = () => {
   const [count, setCount] = useState(0);
 
-  let valorNumero = 0;
-
   const decrement = () => {
     setCount(count - 1);
-    valorNumero = -1;
   };
-
-  console.count("render");
-  console.log("valorNumero", valorNumero);
-  console.log("count estado", count);
 
   return (
     <div className="flex flex-col items-center justify-center bg-gray-400 w-64 rounded-lg shadow-lg p-8 mx-auto mt-20">
